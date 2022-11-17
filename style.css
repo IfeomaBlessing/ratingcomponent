@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    max-width:1440px;
+}
+.container h2{
+    margin-bottom: 80px;
+    color: antiquewhite;
+    word-spacing: 10px;
+}
+.content{
+    background:  hsl(213, 19%, 18%);
+   max-width: 300px;
+   width: 100%;    
+   min-height:40vh;
+    border-radius: 10px;
+    padding:20px 20px;
+   display: block;
+
+}
+
+.star img{
+    background:  rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.writeup{
+    margin:10px;
+}
+.writeup h3{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom:10px;
+}
+.writeup small{
+    font-size: 12px;
+    color:hsl(217, 12%, 63%);
+    margin-bottom:20px;
+}
+
+.submit{
+    text-align: center;
+
+}
+.submit button:hover{ background: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.submit button{ display: inline-block;
+ border: none; outline: none;
+ background-color: hsl(25, 97%, 53%);
+ width: 100%; padding: 5px;
+ border-radius:20px;
+    color: white;
+    font-size:15px;     margin-top: 20px;
+    font-weight: bold;
+    word-spacing:5px;
+}
+ ul{
+    margin-top:15px;margin-bottom: 10px;
+    display:flex; align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ ul li{ list-style:none;  
+}
+ ul li button{
+    background:  rgba(0, 0, 0, 0.4);
+    color:gainsboro;
+    border-radius: 50%;
+    border: none; outline: none;
+    width: 2.5rem; height: 2.5rem;
+    
+}
+ul li button:hover{
+    background: hsl(25, 97%, 53%);
+    cursor:pointer;
+    color:black;
+}
+
+ul li button:focus{
+     background: hsl(217, 12%, 63%);
+}
+
+
+               /* Thank you styling  */
+        .modal-box{
+            text-align: center;
+            background:  hsl(213, 19%, 18%);
+            max-width: 300px;
+            width: 100%;
+            min-height:40vh;
+             border-radius: 10px;
+             padding:20px 20px;
+             display:none;
+        }
+        .modal-pix{
+            margin-bottom:15px;
+        }
+        .modal-pix img{
+            width: 100px;
+        }
+        .thank-you{
+            margin:10px 0;
+        }
+        .modal-box p{
+            background:rgba(0, 0, 0, 0.4);
+            color:hsl(25, 97%, 53%);
+            margin-bottom:15px;
+            border-radius:15px;
+            padding:5px 12px;display:inline-block;
+        }
+        .modal-box h5{
+            color:white ;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .modal-box small{
+            color: hsl(217, 12%, 63%);
+    
+        }
+
+
+
